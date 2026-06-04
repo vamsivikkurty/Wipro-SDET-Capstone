@@ -88,8 +88,7 @@ jobs:
 
     - name: Prepare Deployment Directory
       run: |
-        mkdir -p dist
-        cp server.js dist/
+        
         cp package.json dist/
         cp package-lock.json dist/ || true
         cp -r public dist/

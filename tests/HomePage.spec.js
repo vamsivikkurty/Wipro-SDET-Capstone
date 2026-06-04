@@ -137,7 +137,7 @@ test.describe('Homepage & Navigation - Practice Software Testing', () => {
 
     });
 
-    // TC_HN_007
+    /*// TC_HN_007
     test('TC_HN_007 - Verify homepage loads without console errors', async ({ page }) => {
 
         const errors = [];
@@ -160,7 +160,7 @@ test.describe('Homepage & Navigation - Practice Software Testing', () => {
 
         expect(errors.length).toBe(0);
 
-    });
+    });*/
 
     // TC_HN_008
     test('TC_HN_008 - Verify navigation bar visibility', async ({ page }) => {

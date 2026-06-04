@@ -89,10 +89,8 @@ jobs:
     - name: Prepare Deployment Directory
       run: |
         
-        cp package.json dist/
-        cp package-lock.json dist/ || true
-        cp -r public dist/
-        cp -r allure-report dist/
+        mkdir -p dist
+        cp -r allure-report/* dist/
 
     - name: Deploy to allure-report branch
       if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'

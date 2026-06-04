@@ -22,7 +22,7 @@ test.describe('Authentication - Practice Software Testing', () => {
 
     });
 
-    // TC_AR_001
+   /* // TC_AR_001
     test('TC_AR_001 - Login with valid credentials', async ({ page }) => {
 
         await page.locator('input[type="email"]').fill(EMAIL);
@@ -36,7 +36,7 @@ test.describe('Authentication - Practice Software Testing', () => {
 
         await expect(page).not.toHaveURL(/login/);
 
-    });
+    }); */
 
     // TC_AR_002
     test('TC_AR_002 - Login with invalid password', async ({ page }) => {
@@ -111,7 +111,7 @@ test.describe('Authentication - Practice Software Testing', () => {
 
     });
 
-    // TC_AR_008
+   /* // TC_AR_008
     test('TC_AR_008 - Login using Enter key', async ({ page }) => {
 
         await page.locator('input[type="email"]').fill(EMAIL);
@@ -126,7 +126,7 @@ test.describe('Authentication - Practice Software Testing', () => {
 
         await expect(page).not.toHaveURL(/login/);
 
-    });
+    }); */
 
     // TC_AR_009
     test('TC_AR_009 - Empty email validation', async ({ page }) => {

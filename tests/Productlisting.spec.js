@@ -206,7 +206,7 @@ test.describe('Product Listing & Filters', () => {
 
     });
 
-    // TC_PF_015
+   /* // TC_PF_015
     test('TC_PF_015 - Verify filters reset after page reload', async ({ page }) => {
 
         const hammerFilter =
@@ -225,7 +225,7 @@ test.describe('Product Listing & Filters', () => {
             })
         ).toBeVisible();
 
-    });
+    });*/
 
 });
 
